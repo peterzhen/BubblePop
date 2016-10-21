@@ -1,0 +1,30 @@
+body {
+  background-color: rgb(49, 49, 49);
+}
+
+.game-container {
+  background-image: url("./images/frame.png");
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  background-size: contain;
+  height: 962px;
+  width: 765px;
+  position: relative;
+}
+
+.main-title {
+  text-align: center;
+  font-size: 40px;
+  font-family: 'Chewy', cursive;
+  color: white;
+  color: lightgrey;
+  text-shadow: 5px 5px 5px black;
+}
+
+.canvas-container {
+  position: absolute;
+  width: 305px;
+  height: 455px;
+  top: 84px;
+  left: 231px;
+}
