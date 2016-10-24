@@ -23,8 +23,9 @@ body {
 
 .canvas-container {
   position: absolute;
-  width: 305px;
+  border: 1px solid black;
+  width: 275px;
   height: 455px;
   top: 84px;
-  left: 231px;
+  left: 245px;
 }
