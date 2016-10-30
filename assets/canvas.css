@@ -8,7 +8,7 @@ body {
   margin: 0 auto;
   background-size: contain;
   height: 962px;
-  width: 765px;
+  width: 700px;
   position: relative;
 }
 
@@ -23,9 +23,8 @@ body {
 
 .canvas-container {
   position: absolute;
-  border: 1px solid black;
   width: 275px;
   height: 455px;
   top: 84px;
-  left: 245px;
+  left: 215px;
 }
