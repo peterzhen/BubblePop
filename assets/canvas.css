@@ -2,29 +2,53 @@ body {
   background-color: rgb(49, 49, 49);
 }
 
+.app-container {
+  display: flex;
+  justify-content: center;
+  flex: none;
+  flex-direction: row;
+  align-items: center;
+  height: 600px;
+}
+
+.instructions-container {
+
+}
+
 .game-container {
   background-image: url("./images/frame.png");
   background-repeat: no-repeat;
-  margin: 0 auto;
   background-size: contain;
-  height: 962px;
-  width: 700px;
+  height: 585px;
+  width: 510px;
+  min-width: 585px;
   position: relative;
 }
 
-.main-title {
+/*.main-title {
   text-align: center;
   font-size: 40px;
   font-family: 'Chewy', cursive;
   color: white;
   color: lightgrey;
   text-shadow: 5px 5px 5px black;
-}
+  top: 20px;
+}*/
+
+/*.keys-container {
+  background-image: url("./images/keys.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+  width: 370px;
+  min-width: 370px;
+}*/
 
 .canvas-container {
+  border: 1px solid black;
   position: absolute;
   width: 275px;
   height: 455px;
-  top: 84px;
-  left: 215px;
+  left: 130px;
+  top: 65px;
 }
