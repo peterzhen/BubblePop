@@ -45,10 +45,9 @@ body {
 }*/
 
 .canvas-container {
-  border: 1px solid black;
   position: absolute;
   width: 275px;
   height: 455px;
-  left: 130px;
+  left: 133px;
   top: 65px;
 }
