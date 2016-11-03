@@ -1,10 +1,10 @@
 body {
-  background-color: rgb(49, 49, 49);
+  background: grey;
 }
 
 .app-container {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;;
   flex: none;
   flex-direction: row;
   align-items: center;
@@ -12,17 +12,25 @@ body {
 }
 
 .instructions-container {
-
-}
-
-.game-container {
-  background-image: url("./images/frame.png");
+  background-image: url("./images/instructions.png");
   background-repeat: no-repeat;
   background-size: contain;
-  height: 585px;
-  width: 510px;
-  min-width: 585px;
+  height: 520px;
+  width: 310px;
+  min-width: 360px;
+  border-radius: 10px;
+}
+
+
+.game-container {
+  background-color: rgb(75, 75, 75);
+  height: 520px;
+  width: 310px;
+  min-width: 360px;
   position: relative;
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px black;
+  transition: all 1s ease-in-out;
 }
 
 /*.main-title {
@@ -35,19 +43,26 @@ body {
   top: 20px;
 }*/
 
-/*.keys-container {
-  background-image: url("./images/keys.png");
+.howto-container {
+  background-image: url("./images/howto.png");
   background-repeat: no-repeat;
-  background-size: cover;
-  height: 400px;
-  width: 370px;
-  min-width: 370px;
-}*/
+  background-size: contain;
+  height: 520px;
+  width: 310px;
+  min-width: 360px;
+  border-radius: 10px;
+}
 
 .canvas-container {
-  position: absolute;
+  background-color: rgb(65, 65, 65);
+  margin: 0 auto;
   width: 275px;
   height: 455px;
-  left: 133px;
-  top: 65px;
+  margin-top: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 15px 5px black;
+  padding: 5px 0px 0px 6px;
 }
+/*position: absolute;*/
+/*left: 20px;
+top: 65px;*/
