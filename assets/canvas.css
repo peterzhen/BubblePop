@@ -109,6 +109,40 @@
   color: #f77d51;
 }
 
+.about-links {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  width: 400px;
+}
+
+.about-links > div:hover {
+  cursor: pointer;
+}
+
+.portfolio {
+  background-image: url("./images/portfolio-icon.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 100px;
+  width: 100px;
+}
+
+.linkedIn {
+  background-image: url("./images/linkedIn-icon.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 100px;
+  width: 100px;
+}
+
+.github {
+  background-image: url("./images/github-icon.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 100px;
+  width: 100px;
+}
 .game-container {
   background-color: rgb(94, 168, 214);
   height: 520px;
