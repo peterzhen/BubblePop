@@ -13,7 +13,7 @@
   background-size: contain;
   height: 780px;
   width: 370px;
-  margin: 10% auto;
+  margin: 15% auto;
   padding: 20px;
   transition: all 2s ease-in-out;
 }
@@ -36,7 +36,7 @@
   text-align: center;
   color: #28cbe0;
   font-size: 24px;
-  padding: 5px 0px 10px 0px;
+  padding: 20px 0px 10px 0px;
 }
 
 .instructions {
@@ -100,6 +100,7 @@
 .modal-content {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     align-items: center;
     border-radius: 5px;
     background-color: #fefefe;
@@ -108,4 +109,19 @@
     border: 1px solid #888;
     opacity: 0;
     transition: opacity 1.5s ease-in-out;
+}
+
+.next-level-modal {
+  font-family: Pacifico;
+  text-align: center;
+  color: #28cbe0;
+  font-size: 24px;
+}
+
+.next-level-text {
+  font-family: monospace;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  padding: 20px;
 }
