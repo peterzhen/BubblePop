@@ -1,6 +1,3 @@
-body {
-}
-
 .logo {
   position: fixed;
   left: 0;
@@ -34,16 +31,33 @@ body {
   height: 600px;
 }
 
-/*.instructions-container {
-  background-image: url("./images/instructions.png");
-  background-repeat: no-repeat;
-  background-size: contain;
-  height: 520px;
-  width: 310px;
-  min-width: 360px;
-  border-radius: 10px;
-}*/
+.welcomeText {
+  font-family: Pacifico;
+  text-align: center;
+  color: #28cbe0;
+  font-size: 24px;
+  padding: 5px 0px 10px 0px;
+}
 
+.instructions {
+  font-family: monospace;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  padding: 20px;
+}
+
+.play-button {
+  text-align: center;
+  font-family: Pacifico;
+  color: #28cbe0;
+  padding: 20px;
+}
+
+.play-button:hover {
+  cursor: pointer;
+  color: #1fafc1;
+}
 
 .game-container {
   background-color: rgb(94, 168, 214);
@@ -52,7 +66,7 @@ body {
   min-width: 360px;
   position: relative;
   border-radius: 10px;
-  box-shadow: 2px 2px 10px black;
+  box-shadow: 0px 0px 10px black;
   transition: all 1s ease-in-out;
 }
 
@@ -84,21 +98,14 @@ body {
 
 /* Modal Content/Box */
 .modal-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     border-radius: 5px;
     background-color: #fefefe;
     margin: 10% auto;
-    padding: 20px;
+    padding: 10px;
     border: 1px solid #888;
     opacity: 0;
     transition: opacity 1.5s ease-in-out;
-}
-
-#modal-text {
-  text-align: center;
-  font-size: 20px;
-  font-family: sans-serif;
-  font-weight: bold;
-  text-overflow: ellipsis;
-  overflow: scroll;
-  white-space: nowrap;
 }
