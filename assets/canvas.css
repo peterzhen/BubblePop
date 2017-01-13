@@ -1,5 +1,28 @@
 body {
-  background: grey;
+}
+
+.logo {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.logo-image {
+  opacity: .1;
+  background-image: url("./images/logo.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 780px;
+  width: 370px;
+  margin: 10% auto;
+  padding: 20px;
+  transition: all 2s ease-in-out;
+}
+
+.game {
+  display: none;
 }
 
 .app-container {
@@ -11,7 +34,7 @@ body {
   height: 600px;
 }
 
-.instructions-container {
+/*.instructions-container {
   background-image: url("./images/instructions.png");
   background-repeat: no-repeat;
   background-size: contain;
@@ -19,7 +42,7 @@ body {
   width: 310px;
   min-width: 360px;
   border-radius: 10px;
-}
+}*/
 
 
 .game-container {
@@ -33,26 +56,6 @@ body {
   transition: all 1s ease-in-out;
 }
 
-/*.main-title {
-  text-align: center;
-  font-size: 40px;
-  font-family: 'Chewy', cursive;
-  color: white;
-  color: lightgrey;
-  text-shadow: 5px 5px 5px black;
-  top: 20px;
-}*/
-
-.howto-container {
-  background-image: url("./images/howto.png");
-  background-repeat: no-repeat;
-  background-size: contain;
-  height: 520px;
-  width: 310px;
-  min-width: 360px;
-  border-radius: 10px;
-}
-
 .canvas-container {
   background-color: rgb(65, 65, 65);
   margin: 0 auto;
@@ -63,12 +66,6 @@ body {
   box-shadow: 0px 0px 15px 5px black;
   padding: 5px 0px 0px 6px;
 }
-/*position: absolute;*/
-/*left: 20px;
-top: 65px;*/
-
-/* MODAL
-*/
 
 /* The Modal (background) */
 .modal {
@@ -81,16 +78,19 @@ top: 65px;*/
     height: 100%;
     overflow: auto;
     background-color: rgb(0,0,0);
-    background-color: rgba(0,0,0,0.4);
+    background-color: rgba(0,0,0,0.1);
+    transition: all 1s ease-in-out;
 }
 
 /* Modal Content/Box */
 .modal-content {
+    border-radius: 5px;
     background-color: #fefefe;
-    margin: 15% auto;
+    margin: 10% auto;
     padding: 20px;
     border: 1px solid #888;
-    width: 300px;
+    opacity: 0;
+    transition: opacity 1.5s ease-in-out;
 }
 
 #modal-text {
