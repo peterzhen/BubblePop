@@ -20,6 +20,10 @@
 
 .game {
   display: none;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 0 auto;
 }
 
 .app-container {
@@ -28,18 +32,18 @@
   flex: none;
   flex-direction: row;
   align-items: center;
-  height: 600px;
+  height: 550px;
 }
 
-.welcomeText {
+.modal-header {
   font-family: Pacifico;
   text-align: center;
   color: #28cbe0;
-  font-size: 24px;
-  padding: 20px 0px 10px 0px;
+  font-size: 22px;
+  padding: 15px;
 }
 
-.instructions {
+.modal-text {
   font-family: monospace;
   font-size: 18px;
   font-weight: bold;
@@ -47,16 +51,33 @@
   padding: 20px;
 }
 
-.play-button {
+.modal-button {
   text-align: center;
   font-family: Pacifico;
   color: #28cbe0;
   padding: 20px;
 }
 
-.play-button:hover {
+.modal-button:hover {
   cursor: pointer;
   color: #1fafc1;
+}
+
+.game-logo {
+  background-image: url("./images/logo-small.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 75px;
+  width: 252px;
+  margin: 0 auto;
+}
+
+.level {
+  text-align: center;
+  font-family: monospace;
+  font-size: 20px;
+  font-weight: bold;
+  color: #28cbe0;
 }
 
 .game-container {
@@ -109,19 +130,4 @@
     border: 1px solid #888;
     opacity: 0;
     transition: opacity 1.5s ease-in-out;
-}
-
-.next-level-modal {
-  font-family: Pacifico;
-  text-align: center;
-  color: #28cbe0;
-  font-size: 24px;
-}
-
-.next-level-text {
-  font-family: monospace;
-  font-size: 18px;
-  font-weight: bold;
-  text-align: center;
-  padding: 20px;
 }
