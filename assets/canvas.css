@@ -116,8 +116,13 @@
   width: 400px;
 }
 
-.about-links > div:hover {
+.about-links > a {
+  transition: all .5s ease-in-out;
+}
+
+.about-links > a:hover {
   cursor: pointer;
+  transform: scale(1.1);
 }
 
 .portfolio {
