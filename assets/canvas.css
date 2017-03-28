@@ -199,3 +199,45 @@
     opacity: 0;
     transition: opacity 1.5s ease-in-out;
 }
+
+#on-screen-buttons {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+#left {
+  background-image: url("./images/left.png");
+}
+
+#right {
+  background-image: url("./images/right.png");
+}
+#shoot {
+  background-image: url("./images/shoot.png");
+}
+
+#left:hover {
+  background-image: url("./images/left-hover.png");
+}
+
+#right:hover {
+  background-image: url("./images/right-hover.png");
+}
+
+#shoot:hover {
+  background-image: url("./images/shoot-hover.png");
+}
+
+.shoot-button {
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 100px;
+  width: 100px;
+}
+
+.shoot-button:hover {
+  cursor: pointer;
+}
